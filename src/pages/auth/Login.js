@@ -25,10 +25,10 @@ const Login = () => {
       });
   };
   return (
-    <div className="bg-white dark:bg-gray-900 min-h-screen">
+    <div className="bg-gray-700 min-h-screen">
       <Toaster />
       <div className="flex flex-col items-center justify-center h-screen px-4 sm:px-6 lg:px-8">
-        <div className="border border-gray-300 bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 max-w-md w-full">
+        <div className="border border-gray-300 bg-gray-900  rounded-lg shadow-md p-8 max-w-md w-full">
           <h1 className="text-white text-3xl font-bold mb-6">Login</h1>
           <div className=" text-white flex flex-col space-y-2">
             <label htmlFor="email" className="text-lg">
